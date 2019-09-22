@@ -1,0 +1,24 @@
+      .ml-img {
+          background-image: url('./images/email-pattern.png');
+      }
+
+      .home-img {
+        background-image: url('./images/home.jpg');
+        /*opacity: 0.5;
+        filter: alpha(opacity=50);*/
+    }
+/*
+      .nav-tabs{
+  background-color:#000000;
+  
+}
+
+
+.nav-tabs > a{
+  color: #ffffff;
+}
+.nav-tabs > a:hover{
+  background-color: #a1a1a1 !important;
+  color: #000000;
+    /*color:#fff;
+}

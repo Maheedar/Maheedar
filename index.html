@@ -1,75 +1,224 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <style type="text/css">
-      .bodyimg {
-          background-image: url('./images/email-pattern.png');
-      }
-      </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href = "styles.css">
+
   </head>
+
 <body>
-  <div class = "container" style="background-color: #f2f2f2; padding-top: 100px">
-    <div class = "container fixed-top" style="background-color: #e6e6e6">
+  <div class = "container-fluid" style="background-color: #f2f2f2; padding-top: 100px">
+    <div class = "container-fluid fixed-top" style="background-color: #e6e6e6">
+      <div class="container">
       <br>
       <h2 style="text-align:center">MAHEEDAR SUBRAMANIAN
-          <a href="https://www.linkedin.com/in/maheedar/">
-            <button type="button" class="btn btn-primary btn-sm">
-            <b>LinkedIn</b>
-          </button></a>
-          
+
+          <a href="https://www.linkedin.com/in/maheedar/"><img src="./images/LinkedIn_Icon.png" alt="LinkedIn" title="LinkedIn" style="width:30px; height:30px"></a>
+          <a href="https://github.com/Maheedar"><img src="./images/GitHub_Icon.png" alt="GitHub" title="GitHub" style="width:30px; height:30px"></a>
+           
       </h2>
       <br>
+      <nav>
+          <div class="container nav nav-tabs" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">
+              <span><h5><b>Home</b></h5></span></a>
+            <a class="nav-item nav-link" id="nav-we-tab" data-toggle="tab" href="#nav-we" role="tab" aria-controls="nav-we" aria-selected="false">Work Experience</a>
+            <a class="nav-item nav-link" id="nav-ml-tab" data-toggle="tab" href="#nav-ml" role="tab" aria-controls="nav-ml" aria-selected="false">Machine Learning</a>
+            <a class="nav-item nav-link" id="nav-tableau-tab" data-toggle="tab" href="#nav-tableau" role="tab" aria-controls="nav-tableau" aria-selected="false">Tableau</a>
+          </div>
+        </nav>
+      </div>
     </div>
-    <br>
-    <div class = "col-md bodyimg">
-      <h4>Hi, Welcome to my page.</h4>
-        <p> I'm a Data Analyst proficient in data wrangling, modeling, analysis and visualization 
-            with 3 years of professional work experience in Analytics, reporting, ETL and 
-            with projects focused to derive insights as well to predict outcomes with data.
-        </p>
-      <br>    <br>
-      <h4>PROJECTS</h4>
-      <br>
-      <table class="table table-hover">
-          <thead class="thead-dark">
-            <tr>
-              <th scope="col" style="width: 20%">Project Name</th>
-              <th scope="col">Description</th>
-            </tr>
-          </thead>
+  
+  <!---->
 
-          <tbody>
-            <tr>
-              <th scope="row">Credit Card Fraud Detection</th>
-              <td>Classified credit card transactions as fraudulent/genuine using SMOTE sampling technique,
-                   Logistic Regression, Random Forest, KNN Classifier and K-Means Clustering to help credit card companies
-                   predict fraudulent transactions and reduce monetary loss. <br>
-                   Link to Jupyter Notebook : 
-                   <a href="https://github.com/Maheedar/"> Credit-Card-Fraud-Detection (GitHub Link) </a></td>
-            </tr>
-            <tr>
-              <th scope="row">Twitter Buzz Prediction</th>
-              <td>Predicted a tweet’s buzz and the magnitude of buzz by building models such as
-                   Decision Tree, SVM, KNN Classifier, Linear, Ridge, Lasso Regressions along with
-                   voting classifiers with help of scikit-learn & scipy libraries to achieve a high accuracy.<br>
-                   Link to Jupyter Notebook : 
-                   <a href="https://github.com/Maheedar/"> Twitter-Buzz-Prediction (GitHub Link) </a></td>
-            </tr>
-            <tr>
-              <th scope="row">Marketing Predictive Analytics</th>
-              <td>Devised marketing strategies for a facial tissue brand using demographics, 
-                customer segmentation based on Loyalty, multinomial logit and panel regression models to predict 
-                customer brand affinity and boost market share across product variants.</td>
-            </tr>
-            <tr>
-              <th scope="row">Web Analytics</th>
-              <td>Boosted brand awareness of a mobile App called “Brisky” by optimizing Ad text, keywords, 
-                bidding strategies & target audience leading to increased CTR & 500K impressions.</td>
-            </tr>
-          </tbody>
-      </table>
+  
+    <div class="tab-content" id="nav-tabContent" style="padding-top: 50px">
+      <div class="container tab-pane ml-img fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" style="height: 500px">
+        <br>
+          <div><h4 style="text-align: center">Hi, Welcome to my Web page.</h4>
+            </div>
+        <br>
+      </div>
+
+      <div class="container tab-pane fade" id="nav-we" role="tabpanel" aria-labelledby="nav-we-tab">
+
+        
+        <div class="container ml-img">
+          <br>
+          <ul>
+            <li>
+             <h5>Vizient, Inc., Irving, Texas
+             <a target="_blank" href="https://www.linkedin.com/company/vizient">
+              <img src="./images/LinkedIn_Icon.png" alt="LinkedIn" title="Vizient" style="width:30px; height:30px"></a>
+             <small class="float-right">June, 2019</small></h5>
+            <i><b>Business Analyst</b> - Travel & Expense Analytics</i>
+              <ul>
+                <li>Consolidated, Tested and Standardized data from multiple sources across the organization with SQL & Tableau.</li>
+                <li>Developed custom metrics to mark compliance boundaries and to perform gap analysis from a manager’s standpoint.</li>
+                <li>Designed interactive dashboards with drill-downs to enable change in non-compliant behaviors in the organization.</li>
+                <li>Implemented dynamic row-level security in dashboards which adapts to changing management structure.</li>
+              </ul>
+
+            </li> <br>
+            <li>
+              <h5>Unibees, Inc., Dallas, Texas
+                <a target="_blank" href="https://www.linkedin.com/company/unibees">
+                  <img src="./images/LinkedIn_Icon.png" alt="LinkedIn" title="Unibees" style="width:30px; height:30px"></a>
+                <small class="float-right">September, 2018 - April, 2019</small></h5>
+              <i><b>Data Analyst Intern</b> - Market Analysis & Product Improvement</i>
+              <ul>
+                <li>Created Tableau dashboard to identify popular event classes and strengthen relevant event libraries across Universities</li>
+                <li>Spearheaded marketing campaign to target specific user segments thereby increasing monthly retention rate by 15%.</li>
+                <li>Introduced new deals & offers by analyzing aggregated user survey data leading to 30% increase in user base over 4 months.</li>
+                </ul>
+            </li> <br>
+            <li>
+              <h5>Superior Data Science, LLC., Dallas, Texas
+                <a target="_blank" href="https://www.linkedin.com/company/superior-data-science">
+                  <img src="./images/LinkedIn_Icon.png" alt="LinkedIn" title="SDS" style="width:30px; height:30px"></a>
+                <small class="float-right">June, 2018 - August, 2018</small></h5>
+              <i><b>Data Analyst Intern</b> - Database design and Dashboard development</i>
+              <ul>
+                <li>Collaborated with business owners and analyze requirements to model database for Agile Project management software.</li>
+                <li>Designed and developed client’s User Interface from scratch using Angular Framework which included analytics dashboard.</li>
+              </ul>
+            </li> <br>
+            <li>
+              <h5>Tata Consultancy Services, Chennai, India
+                <a target="_blank" href="https://www.linkedin.com/company/tata-consultancy-services">
+                  <img src="./images/LinkedIn_Icon.png" alt="LinkedIn" title="TCS" style="width:30px; height:30px"></a>
+                <small class="float-right">June, 2014 - July, 2017</small></h5>
+              <i><b>Analyst</b> - ETL performance improvement and Reporting</i>
+              <ul>
+                <li>Created dashboard in Excel using VBA for clients to effectively monitor the performance of Credit Risk Application batches.</li>
+                <li>Forecasted critical batch delays using data patterns which resulted in a 50% reduction in report generation time.</li>
+                <li>Analyzed FRANK system’s SQL code changes and suggested improvements which reduced batch runtime by 40%.</li>
+                </ul>
+            </li>
+          </ul>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="container tab-pane fade" id="nav-ml" role="tabpanel" aria-labelledby="nav-ml-tab">
+        
+          <div class = "container col-md ml-img">
+                  <br>
+        
+               <h4>PROJECTS</h4>
+                <br>
+                <table class="table table-hover">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th scope="col" style="width: 20%">Project Name</th>
+                        <th scope="col">Description</th>
+                      </tr>
+                    </thead>
+        
+                    <tbody>
+                      <tr>
+                        <th scope="row">Credit Card Fraud Detection
+                            <a target="_blank" href="https://github.com/Maheedar/Credit-Card-Fraud-Detection">
+                              <img src="./images/GitHub_Icon.png" alt="GitHub Repository" title="GitHub Repository" style="width:30px; height:30px">
+                            </a>
+                        </th>
+                        <td>Classified credit card transactions as fraudulent/genuine using SMOTE sampling technique,
+                            Logistic Regression, Random Forest, KNN Classifier and K-Means Clustering to help credit card companies
+                            predict fraudulent transactions and reduce monetary loss. <br>
+                          </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Twitter Buzz Prediction
+                            <a target="_blank" href="https://github.com/Maheedar/Twitter-Buzz-Prediction">
+                              <img src="./images/GitHub_Icon.png" alt="GitHub Repository" title="GitHub Repository" style="width:30px; height:30px">
+                            </a>
+                        </th>
+                        <td>Predicted a tweet’s buzz and the magnitude of buzz by building models such as
+                            Decision Tree, SVM, KNN Classifier, Linear, Ridge, Lasso Regressions along with
+                            voting classifiers with help of scikit-learn & scipy libraries to achieve a high accuracy.<br>
+                            </a></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Marketing Predictive Analytics</th>
+                        <td>Devised marketing strategies for a facial tissue brand using demographics, 
+                          customer segmentation based on Loyalty, multinomial logit and panel regression models to predict 
+                          customer brand affinity and boost market share across product variants.</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Web Analytics</th>
+                        <td>Boosted brand awareness of a mobile App called “Brisky” by optimizing Ad text, keywords, 
+                          bidding strategies & target audience leading to increased CTR & 500K impressions.</td>
+                      </tr>
+                    </tbody>
+                </table>
+                </div>
+        
+                
+            </div>
+
+      <div class="tab-pane fade" id="nav-tableau" role="tabpanel" aria-labelledby="nav-tableau-tab">
+
+        <h3 style="text-align:center"> Retail Chain Operation </h3>
+
+        <br>
+
+          <div class='container-fluid tableauPlaceholder' id='viz1569187815080' style='position: relative'>
+            <noscript>
+              <a href='#'>
+              <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;Retail_Chain_Operation&#47;Dashboard&#47;1_rss.png' style='border: none' /></a>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
+              <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+              <param name='embed_code_version' value='3' />
+              <param name='path' value='views&#47;Retail_Chain_Operation&#47;Dashboard?:embed=y&amp;:useGuest=true&amp;:display_count=y' />
+              <param name='toolbar' value='yes' />
+              <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;Retail_Chain_Operation&#47;Dashboard&#47;1.png' />
+              <param name='animate_transition' value='yes' />
+              <param name='display_static_image' value='yes' />
+              <param name='display_spinner' value='yes' />
+              <param name='display_overlay' value='yes' />
+              <param name='display_count' value='yes' />
+              <param name='useGuest' value='true' />
+            </object>
+          </div>
+          
+          <script type='text/javascript'>
+            var divElement = document.getElementById('viz1569187815080');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            vizElement.style.width='100%';vizElement.style.height='818px';
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+          </script>
+
+
+
+      </div>
     </div>
-  </div>
 
+</div>
+
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+   integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+   integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+   integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
+
 </html>
